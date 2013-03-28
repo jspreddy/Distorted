@@ -1,0 +1,203 @@
+/* 
+    Document   : style
+    Created on : Feb 13, 2013, 6:01:01 PM
+    Author     : jspreddy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+html{
+    background-color:#000000;
+}
+body{
+    color:#b0b0b0;
+    font-family:Arial;
+    padding:0;
+    margin:0;
+    border:none;
+    min-height:700px;
+    min-width:960px;
+}
+.pageContainer{
+    background-color:#000000;
+    min-height:700px;
+    min-width:960px;
+}
+.mainPageBG{
+    background-image:url('../images/titleBG.jpg');
+    background-repeat:no-repeat;
+    background-position-x: center;
+    background-position-y:top;
+}
+/******************************************/
+.bigHeader{
+    height:465px;
+    min-width:960px;
+    border-bottom:1px solid #970505;
+    margin:0;
+    padding:0;
+}
+.smallHeader{
+    height:200px;
+    min-width:960px;
+    border-bottom:1px solid #970505;
+    margin:0;
+    padding:0;
+}
+#navContainer{
+    width:960px;
+    padding:18px 0px 0px 0px;
+    margin:0 auto;
+}
+#nav{
+    border:1px solid #680101;
+    background-color:#3a0202;
+    margin:0 auto;
+    width:958px;
+    height:40px;
+    color:#FFFFFF;
+    position:relative;
+}
+#nav #teamLogoContainer{
+    position:absolute;
+    top:-10px;
+    left:10px;
+    height:60px;
+    width:150px;
+    border:1px solid #570202;
+    background-color:#110606;
+    background-image:url('../images/teamLogo.png');
+    background-repeat: no-repeat;
+    cursor:pointer;
+}
+#nav #teamLogoContainer:hover{
+    background-color:#360202;
+    border-color:#680101;
+}
+#nav > ul{
+    margin:0;
+    padding:0px 0px 0px 165px;
+    height:40px;
+}
+#nav > ul > li{
+    float:left;
+    list-style:none;
+    height:40px;
+    position:relative;
+}
+#nav > ul > li > a{
+    display:block;
+    color:#d0d0d0;
+    text-decoration:none;
+    height:20px;
+    font-size:16px;
+    padding:10px;
+}
+#nav > ul > li > a:hover{
+    color:#f0f0f0;
+    background-color:#220000;
+}
+    /*second level nav*/
+    #nav > ul > li > ul{
+        position:absolute;
+        left:0px;
+        top:40px;
+        float:left;
+        display:none;
+        min-height:10px;
+        width:200px;
+        padding:0;
+        margin:0;
+        border:1px solid #680101;
+        background-color:#200101;
+    }
+    #nav > ul > li:hover > ul{
+        display:block;
+    }
+    #nav > ul > li > ul >li{
+        list-style:none;
+    }
+    #nav >ul>li> ul>li> a{
+        display:block;
+        color:#a0a0a0;
+        text-decoration:none;
+        height:20px;
+        font-size:16px;
+        padding:5px;
+        margin:5px 0px;
+    }
+    #nav >ul>li> ul>li> a:hover{
+        color:#e0e0e0;
+        background-color:#100101;
+    }
+/******************************************/
+.contentContainer{
+    background-color:#000000;
+    opacity:0.76;
+    border-top:1px solid #4d0706;
+    min-height:233px;
+}
+.content{
+    width:960px;
+    margin:0 auto;
+    padding:0;
+    min-height:210px;
+}
+.fullWidthBlock{
+    margin-top:20px;
+    border:1px solid #211616;
+    padding:20px 29px;
+    width:900px;
+}
+.fullWidthBlock_title{
+    text-align:left;
+    font-size:30px;
+    color:#a80b0c;
+    height:30px;
+}
+.fullWidthBlock_divider{
+    width:900px;
+    background-image:url('../images/fullwidthdivider.jpg');
+    background-repeat:no-repeat;
+    background-position-y:center;
+    background-position-x:left;
+    height:1px;
+    margin:12px 0px;
+}
+.fullWidthBlock_text{
+    text-align:justify;
+
+}
+/*******************************************************************************/
+.footerContainer{
+    min-height:100px;
+    min-width:960px;
+    border-top:1px dashed #202020;
+    background-color:#000000;
+    opacity:0.76;
+}
+.footer{
+    margin:0 auto;
+    min-height:100px;
+    width:960px;
+    border-top:1px dashed #680101;
+    text-align:center;
+    font-size:12px;
+}
+
+.footer ul{
+    padding:4px;
+    margin:0;
+}
+
+.footer ul li{
+    list-style:none;
+    padding:2px;
+    color:#970505;
+}
+.footer a{
+    text-decoration:none;
+    color:#909090;
+}
+.footer a:hover{
+    color:#a80b0c;
+}
