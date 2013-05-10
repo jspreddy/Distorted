@@ -147,6 +147,7 @@ body{
     border:1px solid #211616;
     padding:20px 29px;
     width:900px;
+	margin-bottom:20px;
 }
 .fullWidthBlock_title{
     text-align:left;
